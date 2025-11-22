@@ -1,7 +1,8 @@
-import logo from "../../images/Logo.svg";
-import search from "../../images/search.svg";
-import login from "../../images/login.svg";
-import arrow from "../../images/arrow.svg";
+import logo from "/images/Logo.svg";
+import search from "/images/search.svg";
+import login from "/images/login.svg";
+import arrow from "/images/arrow.svg";
+import Button from "../Button/Button";
 
 const Header = () => {
   return (
@@ -32,9 +33,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="flex gap-10">
-        <button className="bg-[#FCAF17] rounded-lg py-[11px] px-4 text-black whitespace-nowrap cursor-pointer hover:bg-[#FCAF17]/80 shadow-inner active:shadow-red-500 active:translate-y-0.5">
-          Baixe o Launcher
-        </button>
+        <Button text="Baixe o Launcher" />
         <div
           className="flex
         gap-6"

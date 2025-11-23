@@ -8,11 +8,14 @@ const Header = () => {
   return (
     <header className="bg-[#020202] px-[140px] py-[29px] flex justify-between items-center">
       <div className="flex items-center gap-[47px]">
-        <img
-          src={logo}
-          alt="logo"
-          className="hover:text-amber-500 cursor-pointer"
-        />
+        <a href="/">
+          <img
+            src={logo}
+            alt="logo"
+            className="hover:text-amber-500 cursor-pointer"
+          />
+        </a>
+
         <ul className="flex gap-6">
           <li>
             <a href="/" className="flex  hover:text-amber-500 text-white">
@@ -38,10 +41,10 @@ const Header = () => {
           className="flex
         gap-6"
         >
-          <div className="cursor-pointer w-12 h-12 flex justify-center items-center bg-[#1A1A1A] rounded-full hover:bg-[#FCAF17]/80">
+          <div className="cursor-pointer w-12 h-12 flex justify-center items-center bg-[#5a5a5a] rounded-full hover:bg-[#FCAF17]/80">
             <img src={search} alt="search" />
           </div>
-          <div className="cursor-pointer w-12 h-12 flex justify-center items-center bg-[#1A1A1A] rounded-full hover:bg-[#FCAF17]/80">
+          <div className="cursor-pointer w-12 h-12 flex justify-center items-center bg-[#5a5a5a] rounded-full hover:bg-[#FCAF17]/80">
             <img src={login} alt="login" />
           </div>
         </div>

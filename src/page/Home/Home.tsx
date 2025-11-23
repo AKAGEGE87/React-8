@@ -2,6 +2,8 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Hero from "../../components/Hero/Hero";
 import Jogos from "../../components/Jogos/Jogos";
+import Ultimas from "../../components/Ultimas/Ultimas";
+import Launcher from "../../components/Launcher/Launcher";
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
       <Header />
       <Hero />
       <Jogos />
+      <Ultimas />
+      <Launcher />
       <Footer />
     </div>
   );
